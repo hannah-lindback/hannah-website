@@ -1,7 +1,6 @@
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import Stepper from "./Stepper";
 const About = () => {
   return (
     <div className="flex  flex-col  rounded-lg gap-4 p-4 font-caveat text-">
@@ -62,7 +61,7 @@ const About = () => {
               </div>
               <h2 className="text-4xl ">Other</h2>
               <div className="flex flex-col gap-2 bg-rose-500 rounded-lg text-2xl">
-                <p className="">Driver's license (B)</p>
+                <p className="">Drivers license (B)</p>
               </div>
             </div>
           </div>
@@ -113,7 +112,7 @@ const About = () => {
               and opportunities to learn and grow.
             </p>
             <p>
-              Feel free to reach out if you have any questions or if you'd like
+              Feel free to reach out if you have any questions or if youd like
               to connect!
             </p>
           </div>
