@@ -26,7 +26,7 @@ export default function Home() {
       </div>
       {/* About Section */}
       <div id="resume" className="text-center py-30  bg-[#FFDEDE] items-center bg-rose-300 ">
-      <h1 className="text-6xl/20 line-height-0 text-rose-600 font-caveat ">Projects</h1>
+      <h1 className="text-6xl/20 line-height-0 text-rose-600 font-caveat ">Resume</h1>
         <About />
 
     </div>
