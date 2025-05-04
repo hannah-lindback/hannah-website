@@ -13,7 +13,7 @@ export const letterVariants = {
 
 interface TypewriterProps {
   text: string;
-  [key: string]: any; // To allow additional props
+  [key: string]: String;
 }
 
 export const Typewriter = ({ text, ...rest }: TypewriterProps) => (
