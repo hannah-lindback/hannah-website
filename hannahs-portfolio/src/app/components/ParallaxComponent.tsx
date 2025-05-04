@@ -7,7 +7,7 @@ export default function ParallaxComponent({
   children,
   offset = 300,
   sectionId,
-  id,
+
 }: {
   children: React.ReactNode;
   offset?: number;

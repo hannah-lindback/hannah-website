@@ -1,23 +1,14 @@
 "use client";
-import Button from '@mui/material/Button';
 import WelcomeBox from "./components/WelcomeBox";
 import Projects from "./components/Projects";
-import { Typography } from '@mui/material';
-import { motion } from "framer-motion";
-import TopNav from "./components/TopNav";
-import About from './components/About';
+import About from "./components/About";
 import ParallaxComponent from "./components/ParallaxComponent";
-import Contact from './components/Contact';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import Link from 'next/link';
-import Head from 'next/head';
-
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
     <div className="bg-gradient-to-r from-rose-600 via-rose-400 to-pink-300  flex flex-col items-center text-center lg:justify-center">
-      <ParallaxComponent offset={300} sectionId='home'>
+      <ParallaxComponent offset={300} sectionId="home">
         <div className=" flex flex-col justify-center items-center">
           <WelcomeBox />
           
@@ -40,7 +31,7 @@ export default function Home() {
 
     </div>
       {/* Contact Section */}
-      <div id='contact' className="text-center py-30  bg-rose-300 items-center  h-screen">
+      <div id="contact" className="text-center py-30  bg-rose-300 items-center  h-screen">
       <h1 className="text-6xl/20 line-height-0 text-rose-600 font-caveat ">Contact</h1>
 
         <Contact />

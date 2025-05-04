@@ -7,8 +7,8 @@ import AnimatedTextWord from "./AnimatedTextWord";
 import TopNav from "./TopNav";
 import { Typography } from "@mui/material";
 import TypeWriter from "./TypeWriter";
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 
 
 const WelcomeBox = () => (
